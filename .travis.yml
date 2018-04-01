@@ -1,0 +1,17 @@
+addons:
+  code_climate:
+    repo_token:
+      secure:
+
+language: node_js
+node_js:
+  - node
+before_script:
+  - npm install codeclimate-test-reporter -g
+
+script:
+  - make lint
+  - make test-coverage
+
+after_script:
+  - codeclimate-test-reporter <./coverage/lcov.info
