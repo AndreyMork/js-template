@@ -15,7 +15,7 @@ test:
 	npm run test
 
 test-coverage:
-	npm run test-coverage
+	npm test --coverage
 
 watch-test:
-	npm run watch-test
+	npm test --watch --notify
