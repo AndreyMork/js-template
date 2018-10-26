@@ -5,6 +5,10 @@ build:
 	rm -rf dist
 	npm run build
 
+link:
+	make build
+	sudo npm link
+
 publish:
 	npm publish
 
