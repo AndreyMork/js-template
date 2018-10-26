@@ -1,5 +1,4 @@
 ---
-
 plugins:
   - import
   - jest
@@ -16,5 +15,3 @@ extends:
 
 rules:
   no-console: 0
-
-...
