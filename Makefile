@@ -9,13 +9,16 @@ publish:
 	npm publish
 
 lint:
-	npm run eslint .
+	npx eslint .
 
 test:
-	npm run test
+	npm test
 
 test-coverage:
 	npm test -- --coverage
 
+log-test:
+	DEBUG="calc*" npm test
+
 watch-test:
-	npm test -- --watch --notify
+	DEBUG="calc*" npm test -- --watch
