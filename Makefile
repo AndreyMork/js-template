@@ -18,7 +18,7 @@ test-coverage:
 	npm test -- --coverage
 
 log-test:
-	DEBUG="calc*" npm test
+	DEBUG="!!!name*" npm test
 
 watch-test:
-	DEBUG="calc*" npm test -- --watch
+	DEBUG="!!!name*" npm test -- --watch
