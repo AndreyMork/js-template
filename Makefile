@@ -1,3 +1,6 @@
+run:
+	npx babel-node src/index.js
+
 install:
 	npm install
 
@@ -14,6 +17,9 @@ publish:
 
 lint:
 	npx eslint .
+
+flow:
+	npx flow
 
 test:
 	npm test

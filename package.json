@@ -49,6 +49,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.26.0",
+    "flow-bin": "^0.90.0",
     "gulp": "^4.0.0",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0"
